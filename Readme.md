@@ -1,6 +1,6 @@
 # Backup DB
 
-Backup DB (Mariadb) to Google drive
+Backup DB (Mariadb)
 
 ## Technologies
 
