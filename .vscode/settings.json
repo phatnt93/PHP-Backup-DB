@@ -1,0 +1,8 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "intelephense.environment.includePaths": [
+        "app",
+        "vendor"
+    ],
+}
