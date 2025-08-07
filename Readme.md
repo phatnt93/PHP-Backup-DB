@@ -5,7 +5,6 @@ Backup DB (Mariadb)
 ## Technologies
 
 - PHP 8.3
-- Phalcon 5.9
 
 ## Deploy
 
