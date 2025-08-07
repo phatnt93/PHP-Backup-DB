@@ -18,8 +18,11 @@ try {
 
     Config::load(BASE_PATH . '/config.ini');
 
-    $backupSQL = new BackupSQL();
-    $backupSQL->backup();
+    if (Config::path('db.host')) {
+        echo "[" . date('Y-m-d H:i:s') . "] Starting backup DB process..." . PHP_EOL;
+        $backupSQL = new BackupSQL();
+        $backupSQL->backup();
+    }
 
     echo "[" . date('Y-m-d H:i:s') . "] Backup completed successfully." . PHP_EOL;
 } catch (\Exception $e) {
